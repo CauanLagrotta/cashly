@@ -1,11 +1,12 @@
+import { Header } from "./components/Header/index.tsx";
 import { GlobalStyle } from "./styles/global.ts";
 
 
 export function App() {
   return (
-    <div>
+    <>
+      <Header />
       <GlobalStyle />
-      <h1>Hello world</h1>
-    </div>
+    </>
   );
 }
