@@ -21,10 +21,11 @@ export const Content = styled.div`
     padding: 0 2rem;
     border-radius: 0.25rem;
     height: 3rem;
-    transition: filter 0.2s;
+    transition: filter 0.2s, transform 0.3s ease-in-out;
 
     &:hover {
       filter: brightness(0.9);
+      transform: scale(1.1);
     }
   }
 `;
