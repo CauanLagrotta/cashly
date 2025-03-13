@@ -16,6 +16,6 @@
       "allowSyntheticDefaultImports": true,
       "allowImportingTsExtensions": true
     },
-    "include": ["src/**/*", "custom.d.ts"]
+    "include": ["src/**/*", "custom.d.ts", "src/react-app-env.d.ts"]
   }
   
